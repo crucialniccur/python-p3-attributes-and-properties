@@ -19,3 +19,6 @@ APPROVED_JOBS = [
 class Person:
     def __init__(self, name="mati"):
         self.name = name
+
+    def get_name(self):
+        return self._name
