@@ -25,3 +25,6 @@ class Dog:
             self._name = name
         else:
             print("Name must be a string between 1 and 25 characters.")
+
+    def get_breed(self):
+        return self._breed
