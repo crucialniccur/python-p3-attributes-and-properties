@@ -22,3 +22,12 @@ class Person:
 
     def get_name(self):
         return self._name
+
+    def set_name(self, name):
+        if isinstance(name, str) and 0 < len(name) <= 25:
+            self._name = name
+
+        else:
+            print("Name must be string between 1 and 25 characters.")
+
+    name = property(get_name, set_name)
