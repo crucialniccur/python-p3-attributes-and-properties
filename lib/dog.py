@@ -17,7 +17,7 @@ class Dog:
         self.name = name
 
     def get_name(self):
-        return self.age
+        return self.name
 
     def set_name(self, name):
         if isinstance(name, str) and 1 <= len(name) <= 25:
