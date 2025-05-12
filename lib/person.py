@@ -15,5 +15,7 @@ APPROVED_JOBS = [
     "Purchasing"
 ]
 
+
 class Person:
-    pass
+    def __init__(self, name="mati"):
+        self.name = name
